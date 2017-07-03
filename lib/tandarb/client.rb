@@ -2,11 +2,13 @@ module Tandarb
   class Client
     BASE_URL = "https://my.tanda.co/api/v2/"
 
+    attr_reader :api_token
+
     def initialize(api_token)
       @api_token = api_token
     end
 
-    def get(path:, token:)
+    def get(path, token)
       HTTParty.get(BASE_URL + path, :headers => headers(token)).parsed_response
     end
 
