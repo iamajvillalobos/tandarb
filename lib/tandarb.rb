@@ -1,6 +1,7 @@
 require "tandarb/version"
-require "tandarb/user"
 require "httparty"
+require_relative "tandarb/client"
+require_relative "tandarb/user"
 
 module Tandarb
 end
