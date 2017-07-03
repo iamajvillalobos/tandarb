@@ -1,6 +1,6 @@
 module Tandarb
   class Client
-    BASE_URL = "https://my.tanda.co/api/v2/"
+    BASE_URL = "https://my.tanda.co/api/v2"
 
     attr_reader :api_token
 
@@ -12,8 +12,12 @@ module Tandarb
       HTTParty.get(BASE_URL + path, :headers => headers(token)).parsed_response
     end
 
-    def post(path:, body:, token:)
-      HTTParty.post(BASE_URL + path, :headers => headers(token), :query => body)
+    def post(path, body, token)
+      res = HTTParty.post(
+        BASE_URL + path,
+        :headers => headers(token),
+      :query => body)
+      res.parsed_response
     end
 
     def put(path:, body:, token:)
