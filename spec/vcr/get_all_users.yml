@@ -29,11 +29,11 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '99'
       X-Ratelimit-Reset:
-      - '1499048701'
+      - '1499050573'
       X-Request-Id:
-      - e888e7d8-d53b-49e3-9750-497d7c323485
+      - 6d693d6a-c4d8-40fe-b844-2ce0096fb2b0
       X-Runtime:
-      - '0.204746'
+      - '0.186145'
       Content-Length:
       - '27924'
       Connection:
@@ -70,5 +70,5 @@ http_interactions:
         Williams","date_of_birth":"1962-11-09","employment_start_date":"2008-10-19","employee_id":"Williams","passcode":"9006","user_levels":["employee"],"department_ids":[36963,36547,33639,33638,33637,33635,29467,29493],"preferred_hours":null,"award_template_id":14,"award_tag_ids":[90530,90535,90537],"report_department_id":null,"managed_department_ids":[],"active":true,"email":null,"photo":"https://s3.amazonaws.com/PayAus/users/avatars/000/113/513/original/10.png","phone":null,"normalised_phone":null,"time_zone":"Australia/Brisbane","utc_offset":36000,"created_at":1457314861,"part_time_fixed_hours":0.0,"expected_hours_in_pay_period":0.0,"days_overtime_averaged_over":7,"overtime_calculated_over_period_start":"2016-02-08","employment_basis":null,"super_fund_membership":null,"bank_details":null,"tax_declaration":null,"qualifications":[],"updated_at":1490837541},{"id":113492,"name":"Kathleen
         Thompson","date_of_birth":"1964-10-10","employment_start_date":"2000-05-10","employee_id":"Thompson","passcode":"8395","user_levels":["employee"],"department_ids":[47018,46024,36547,36963,33639,33638,33637,33635,29484],"preferred_hours":null,"award_template_id":14,"award_tag_ids":[90531,90535],"report_department_id":29484,"managed_department_ids":[],"active":true,"email":null,"photo":"https://s3.amazonaws.com/PayAus/users/avatars/000/113/492/original/16.png?1457314851","phone":null,"normalised_phone":null,"time_zone":"Australia/Brisbane","utc_offset":36000,"created_at":1457314852,"part_time_fixed_hours":0.0,"expected_hours_in_pay_period":0.0,"days_overtime_averaged_over":7,"overtime_calculated_over_period_start":"2016-02-08","employment_basis":null,"super_fund_membership":null,"bank_details":null,"tax_declaration":null,"qualifications":[{"qualification_id":35,"enabled":false,"license_number":"","in_training":false,"expires":null},{"qualification_id":34,"enabled":true,"license_number":"1234567","in_training":true,"expires":"2016-11-13"}],"updated_at":1490837541}]'
     http_version: 
-  recorded_at: Mon, 03 Jul 2017 02:24:02 GMT
+  recorded_at: Mon, 03 Jul 2017 02:55:14 GMT
 recorded_with: VCR 3.0.3

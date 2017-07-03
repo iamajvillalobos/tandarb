@@ -11,9 +11,6 @@ To install, just add `tandarb` to your Gemfile.
 Generate a token in your [My token](https://my.tanda.co/api/oauth/access_tokens) page.
 
 ```ruby
-  # initialize a client object
-  client = Tandarb::Client.new(token)
-  
   # fetch all users
   users = Tandarb::User.new(client.api_token).all
 ```
