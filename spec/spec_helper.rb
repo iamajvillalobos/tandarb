@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "tandarb"
 require "vcr"
+require "pry"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
