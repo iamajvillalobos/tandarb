@@ -3,7 +3,7 @@ require "spec_helper"
 RSpec.describe Tandarb::User do
   describe "GET all users" do
     VCR.use_cassette("get_all_users", record: :once) do
-      token = "42e9e4ff45f0c10deac87b2437bd7f52c7fb04cb1e8470a16aafebe37fd9b30c"
+      token = ENV['TEST_API_TOKEN']
       users = described_class.new(token).all
 
       it "should get all available users" do
@@ -13,7 +13,7 @@ RSpec.describe Tandarb::User do
   end
 
   describe "POST create user" do
-    token = "42e9e4ff45f0c10deac87b2437bd7f52c7fb04cb1e8470a16aafebe37fd9b30c"
+    token = ENV['TEST_API_TOKEN']
 
     it "should create a new user" do
       VCR.use_cassette("create_user", record: :once) do
