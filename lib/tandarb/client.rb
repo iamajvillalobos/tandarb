@@ -9,19 +9,23 @@ module Tandarb
     end
 
     def get(path, token)
-      HTTParty.get(BASE_URL + path, :headers => headers(token)).parsed_response
+      HTTParty.get(
+        BASE_URL + path,
+        :headers => headers(token)).parsed_response
     end
 
     def post(path, body, token)
-      res = HTTParty.post(
+      HTTParty.post(
         BASE_URL + path,
         :headers => headers(token),
-      :query => body)
-      res.parsed_response
+        :query => body).parsed_response
     end
 
     def put(path:, body:, token:)
-      HTTParty.put(BASE_URL + path, :headers => headers(token), :query => body)
+      HTTParty.put(
+        BASE_URL + path,
+        :headers => headers(token),
+        :query => body).parsed_response
     end
 
     def delete(path:, token:)
