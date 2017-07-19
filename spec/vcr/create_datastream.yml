@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://my.tanda.co/api/v2/datastreams?data_interval=900&name=Josh%27s%20Cafe&print_mode=values&roster_display_mode=values&source=clover
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Authorization:
+      - Bearer 5edfc6c9f51ed0d0ed46ab694a248782eed5a03a68aaea1e9195ee966415d6a8
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json
+      Etag:
+      - W/"1141ecc7e666b5a379f6b8ba553d8fab"
+      Vary:
+      - Origin,Accept-Encoding
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '1500429075'
+      X-Request-Id:
+      - f04196c7-8c00-4a26-97fa-beab6a28d87e
+      X-Runtime:
+      - '0.175512'
+      Content-Length:
+      - '160'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":69355,"name":"Josh''s Cafe","source":"api","data_interval":900,"enabled":true,"print_mode":"values","roster_display_mode":"values","updated_at":1500429015}'
+    http_version: 
+  recorded_at: Wed, 19 Jul 2017 01:50:15 GMT
+recorded_with: VCR 3.0.3
