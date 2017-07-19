@@ -1,0 +1,132 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://my.tanda.co/api/v2/storestats/for_datastream/69354?stat=35.5&time=1459296900&type=sales
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Authorization:
+      - Bearer 5edfc6c9f51ed0d0ed46ab694a248782eed5a03a68aaea1e9195ee966415d6a8
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json
+      Etag:
+      - W/"73270485f49cfbef65ad966eadfadb43"
+      Vary:
+      - Origin,Accept-Encoding
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '1500428833'
+      X-Request-Id:
+      - d664a273-73dd-4560-aad7-65bc9573f752
+      X-Runtime:
+      - '0.054888'
+      Content-Length:
+      - '61'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":517574582,"time":1459296900,"stat":35.5,"type":"sales"}'
+    http_version: 
+  recorded_at: Wed, 19 Jul 2017 01:46:14 GMT
+- request:
+    method: post
+    uri: https://my.tanda.co/api/v2/storestats/for_datastream/69355?stat=35.5&time=1459296900&type=sales
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Authorization:
+      - Bearer 5edfc6c9f51ed0d0ed46ab694a248782eed5a03a68aaea1e9195ee966415d6a8
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json
+      Etag:
+      - W/"544bb224f34d59bbde4829ecc65c03f3"
+      Vary:
+      - Origin,Accept-Encoding
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '1500429280'
+      X-Request-Id:
+      - 86784ef0-177f-4849-a1f8-3e95a69af659
+      X-Runtime:
+      - '0.050675'
+      Content-Length:
+      - '61'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":517574669,"time":1459296900,"stat":35.5,"type":"sales"}'
+    http_version: 
+  recorded_at: Wed, 19 Jul 2017 01:53:40 GMT
+- request:
+    method: post
+    uri: https://my.tanda.co/api/v2/storestats/for_datastream/69355?stat=35.5&time=1499190300&type=sales
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Authorization:
+      - Bearer 5edfc6c9f51ed0d0ed46ab694a248782eed5a03a68aaea1e9195ee966415d6a8
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json
+      Etag:
+      - W/"744a1fdfe9ddf14389be40085ec65052"
+      Vary:
+      - Origin,Accept-Encoding
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '98'
+      X-Ratelimit-Reset:
+      - '1500429521'
+      X-Request-Id:
+      - 88b030d8-6648-4669-b48c-aad163567c0f
+      X-Runtime:
+      - '0.081842'
+      Content-Length:
+      - '61'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":517574693,"time":1499190300,"stat":35.5,"type":"sales"}'
+    http_version: 
+  recorded_at: Wed, 19 Jul 2017 01:57:43 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://my.tanda.co/api/v2/storestats/for_datastream/69354?stats%5B%5D%5Bstat%5D=35.5&stats%5B%5D%5Btime%5D=1459296900&stats%5B%5D%5Btype%5D=sales&stats%5B%5D%5Bstat%5D=75.0&stats%5B%5D%5Btime%5D=1459296950&stats%5B%5D%5Btype%5D=sales
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Authorization:
+      - Bearer 5edfc6c9f51ed0d0ed46ab694a248782eed5a03a68aaea1e9195ee966415d6a8
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json
+      Etag:
+      - W/"0ec00da7f5bfd43c0c642d603639c105"
+      Vary:
+      - Origin,Accept-Encoding
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '1500428833'
+      X-Request-Id:
+      - f6b3f8c5-c0ad-4e48-a149-0407574bb738
+      X-Runtime:
+      - '0.040925'
+      Content-Length:
+      - '125'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"id":517574580,"time":1459296900,"stat":35.5,"type":"sales"},{"id":517574581,"time":1459296950,"stat":75.0,"type":"sales"}]'
+    http_version: 
+  recorded_at: Wed, 19 Jul 2017 01:46:13 GMT
+- request:
+    method: post
+    uri: https://my.tanda.co/api/v2/storestats/for_datastream/69355?stats%5B%5D%5Bstat%5D=35.5&stats%5B%5D%5Btime%5D=1499276700&stats%5B%5D%5Btype%5D=sales&stats%5B%5D%5Bstat%5D=75.0&stats%5B%5D%5Btime%5D=1499277000&stats%5B%5D%5Btype%5D=sales
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Authorization:
+      - Bearer 5edfc6c9f51ed0d0ed46ab694a248782eed5a03a68aaea1e9195ee966415d6a8
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json
+      Etag:
+      - W/"4008b58880d9b7006868d004ddf8d82c"
+      Vary:
+      - Origin,Accept-Encoding
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '99'
+      X-Ratelimit-Reset:
+      - '1500429521'
+      X-Request-Id:
+      - 26cfb5d0-5b0a-45b8-9b1f-0df4ee136cae
+      X-Runtime:
+      - '0.042243'
+      Content-Length:
+      - '125'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"id":517574691,"time":1499276700,"stat":35.5,"type":"sales"},{"id":517574692,"time":1499277000,"stat":75.0,"type":"sales"}]'
+    http_version: 
+  recorded_at: Wed, 19 Jul 2017 01:57:41 GMT
+recorded_with: VCR 3.0.3
