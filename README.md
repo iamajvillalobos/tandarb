@@ -21,6 +21,19 @@ user_client = Tandarb::User.new(token)
 user = user_client.create(body)
 ```
 
+### Datastreams
+```ruby
+# Create new datastream
+datastream_client = Tandarb::Datastreams.new(token)
+datastream = datastream_client.create(body)
+```
+
+### Store Stats
+```ruby
+# Create new storestats
+storestats_client = Tandarb::Storestats.new(token)
+storestat = storestats_client.create(body, datastream_id)
+```
 
 ## Contributing
 
