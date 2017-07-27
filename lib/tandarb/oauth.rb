@@ -1,6 +1,6 @@
 module Tandarb
   class Oauth < Client
-    BASE_URL = 'https://my.tanda.co/api/v2/oauth'.freeze
+    BASE_URL = 'https://my.tanda.co/api/oauth'.freeze
     TOKEN_URL = "#{BASE_URL}/token".freeze
 
     def self.authorize(scope, client_id, redirect_uri)
